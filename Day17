@@ -1,0 +1,13 @@
+1)What is class in object oriented programming:-
+
+Class is link a bule print based on this blue print we create many objects reference of class
+
+Ex:-
+class user():
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+user1=user('ravi',47)
+user2=user('kiran',67)
+print(user1.name,user1.age)
+print(user2.name,user2.age)
